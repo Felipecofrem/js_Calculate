@@ -1,0 +1,41 @@
+.card {
+    background-color:rgb(123,162, 56);
+    margin: 2rem;
+}
+
+.card-img-top {
+    padding: 2rem;
+}
+
+.container-card, .container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.container-total {
+    display: flex;
+    flex-direction: column;
+}
+
+.child, h5, .white-txt, #price {
+    color: white;
+}
+button {
+    text-align: center;
+}
+
+.btn {
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 25px;
+    border: 1px black solid;
+  }
+
+  .containerColor {
+    display: flex;
+    flex-direction: row;
+  }
